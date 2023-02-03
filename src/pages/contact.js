@@ -127,7 +127,7 @@ const Contact = () => {
             </h1>
           </div>
           <div className="flex flex-wrap -m-4">
-            <div className="xl:w-1/3 md:w-1/2 p-4">
+            <div className="xl:w-1/3  w-[100%] md:w-1/2 p-4">
               <div className="border border-gray-200 p-6 rounded-lg">
                 <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
                   <img src="/web.png" alt="web" />
@@ -138,13 +138,13 @@ const Contact = () => {
                 <Link
                   href={"https://www.piaic.org/"}
                   target={"_blank"}
-                  className="leading-relaxed text-blue-600 "
+                  className="leading-relaxed text-blue-600 md:text-[16px] text-[13px]"
                 >
                   https://www.piaic.org/
                 </Link>
               </div>
             </div>
-            <div className="xl:w-1/3 md:w-1/2 p-4">
+            <div className="xl:w-1/3  w-[100%] md:w-1/2 p-4">
               <div className="border border-gray-200 p-6 rounded-lg">
                 <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
                   <img src="/syllabus.png" alt="syllabus" />
@@ -155,13 +155,13 @@ const Contact = () => {
                 <Link
                   href={"https://www.panaverse.co/"}
                   target={"_blank"}
-                  className="leading-relaxed text-blue-600 "
+                  className="leading-relaxed text-blue-600 md:text-[16px] text-[13px] "
                 >
                   https://www.panaverse.co/
                 </Link>
               </div>
             </div>
-            <div className="xl:w-1/3 md:w-1/2 p-4">
+            <div className="xl:w-1/3 md:w-1/2 w-[100%] p-4">
               <div className="border border-gray-200 p-6 rounded-lg">
                 <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-blue-500 mb-4">
                   <img src="/facebook.png" alt="facebook" />
@@ -172,13 +172,13 @@ const Contact = () => {
                 <Link
                   href={"https://www.facebook.com/groups/panaverse"}
                   target={"_blank"}
-                  className="leading-relaxed text-blue-600 "
+                  className="leading-relaxed text-blue-600 md:text-[16px] text-[13px] "
                 >
                   https://www.facebook.com/groups/panaverse
                 </Link>
               </div>
             </div>
-            <div className="xl:w-1/3 md:w-1/2 p-4">
+            <div className="xl:w-1/3 md:w-1/2 w-[100%] p-4">
               <div className="border border-gray-200 p-6 rounded-lg">
                 <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
                   <img src="/youtube.png" alt="youtube" />
@@ -189,13 +189,13 @@ const Contact = () => {
                 <Link
                   href={"https://www.youtube.com/@panaverse/streams"}
                   target={"_blank"}
-                  className="leading-relaxed text-blue-600 "
+                  className="leading-relaxed text-blue-600 md:text-[16px] text-[13px] "
                 >
                   https://www.youtube.com/@panaverse/streams
                 </Link>
               </div>
             </div>
-            <div className="xl:w-1/3 md:w-1/2 p-4">
+            <div className="xl:w-1/3 md:w-1/2 w-[100%] p-4">
               <div className="border border-gray-200 p-6 rounded-lg">
                 <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
                   <img src="/github.png" alt="github" />
@@ -206,13 +206,13 @@ const Contact = () => {
                 <Link
                   href={"https://github.com/panaverse"}
                   target={"_blank"}
-                  className="leading-relaxed text-blue-600 "
+                  className="leading-relaxed text-blue-600 md:text-[16px] text-[13px] "
                 >
                   https://github.com/panaverse
                 </Link>
               </div>
             </div>
-            <div className="xl:w-1/3 md:w-1/2 p-4">
+            <div className="xl:w-1/3 md:w-1/2 w-[100%] p-4">
               <div className="border border-gray-200 p-6 rounded-lg">
                 <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
                   <img src="/twitter.png" alt="twitter" />
@@ -223,7 +223,7 @@ const Contact = () => {
                 <Link
                   href={"https://twitter.com/Panaverse_edu"}
                   target={"_blank"}
-                  className="leading-relaxed text-blue-600 "
+                  className="leading-relaxed text-blue-600 md:text-[16px] text-[13px] "
                 >
                   https://twitter.com/Panaverse_edu
                 </Link>
